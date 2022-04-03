@@ -124,6 +124,7 @@ public class RockPaperScissorsFrame extends JFrame {
                 break;
         }
         updateScore();
+        lastUse = playerMove;
     }
 
     private void updateScore(){
